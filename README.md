@@ -1,1 +1,1 @@
-# webdriverIO
+An implementation of the smart-frame attribute that cannot be done with Cypress. In the search for a tool, webdriverio turned out to be the best, so I decided to use the tool in practice.
