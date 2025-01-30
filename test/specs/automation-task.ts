@@ -3,7 +3,7 @@ import FirstScenario from '../pageobjects/first-scenario';
 import SecondScenario from '../pageobjects/second-scenario';
 
 describe('Automation', () => {
-    it('Verifies bottom caption adn embed layer', async () => {
+    it('Verifies bottom caption and embed layer', async () => {
         await FirstScenario.visitPage();
         await Alerts.confirmCookies();
         await FirstScenario.hoverPicture(); 
@@ -14,7 +14,7 @@ describe('Automation', () => {
     });
     it('Verifies share button and SE redirection', async () => {
         await SecondScenario.visitPage();
-        //await Alerts.confirmCookies();
+        await Alerts.confirmCookies();
         await SecondScenario.hoverPicture();
         await SecondScenario.verifyShareButton();
         await SecondScenario.clickSe();
