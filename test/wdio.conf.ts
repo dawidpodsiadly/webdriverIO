@@ -6,12 +6,7 @@ export const config: Options.Testrunner = {
     // Runner Configuration
     // ====================
     //
-    beforeTest: () => {
-        const chai = require('chai');
-        const chaiWebdriver = require('chai-webdriverio').default;
-        chai.use(chaiWebdriver(browser));
-        global.assert = chai.assert;
-      },
+    //
     // =====================
     // ts-node Configurations
     // =====================
@@ -128,7 +123,7 @@ export const config: Options.Testrunner = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: 'https://smartitnow.blogspot.com/p/e.html',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
