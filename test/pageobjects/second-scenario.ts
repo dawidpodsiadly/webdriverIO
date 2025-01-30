@@ -12,10 +12,6 @@ class SecondScenario {
         return $('.--custom span');
     }
 
-    visitPage() {
-        browser.url("https://smartitnow.blogspot.com/p/w.html");
-    }
-
     async hoverPicture() {
         await this.picture.moveTo();
     }

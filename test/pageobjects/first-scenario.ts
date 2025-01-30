@@ -35,10 +35,6 @@ class FirstScenario {
         return $('button[data-action-button="copy-embed-code"]');
     }
 
-    visitPage() {
-        browser.url("https://smartitnow.blogspot.com/p/e.html");
-    }
-
     async hoverPicture() {
         this.picture.moveTo();
         await browser.pause(1000);
